@@ -101,6 +101,7 @@ console.log(10%3); // resto de una division: lo que sobra luego de hacer una div
 == : igualdad en valor 
 != : diferente a
 === : igualdad en tipo y valor
+!==: diferente en valor y tipo
 
 */
 
@@ -126,7 +127,61 @@ console.log(typeof(NaN));
 console.log(10 === "10"); //En este caso compara VALOR Y TIPO DE DATO
 console.log(10 === 10.0); 
 
+//? estructuras condicionales
 
+//*operadores conexion (conectores logicos)
+/*
+&&: AND -> todas las expresiones deben ser verdaderas para que el bloque sea verdadero
+||: OR -> si una o mas expresiones son verdaderas , el bloque es verdadero
+!: NOT -> la expresion sera lo contrario a lo evaluado
+*/
+
+//* Nos van a dejar entrar si tenemos 18 años o mas. Ademas, si tenemos otro calzado distinto a zapatos, no vamos a poder entrar
+
+let edad = 18
+let calzado = "crocks"
+
+if (edad >= 18 && calzado === "zapatos") { //! las estructuras if solo se ejecutan si su condicion es TRUE
+    console.log("Podes pasar");
+} else {
+    console.log("no puede ingresar");
+}
+
+
+//* en mi pizerria, el cajero, el pizzero y el encargado, tienen la llave para abrir la pizzeria a la noche
+
+let empleado = "cajero";
+let supervisor = "gerente"
+let empleado2 = "encargado"
+
+if(empleado === "cajero" || supervisor === "gerente" || empleado2 === "encargado"){
+    console.log("Abrimos la pizzeria");
+} else {
+    console.log("Mi pizzeria se encuentra cerrada");
+}
+
+//* tenemos 5 deptos: en el 1 vive seba, en el 2 barbara, en el 3 roxana. los otros deptos llaman a porteria. Llamaremos a un depto a traves del portero
+
+let depto = 2 ;
+
+if(depto === 1) {
+    console.log("Llamando a Seba");
+} else if (depto === 2) {
+    console.log("Llamando a Barbara");
+} else if (depto ===3 ) {
+    console.log("Llamando a Roxana");
+} else {
+    console.log("Llamando a porteria");
+}
+
+let nombre;
+let apellido;
+
+if(!nombre){
+    console.log("No se ingreso un nombre");
+} else if (nombre) {
+    console.log(`El nombre es ${nombre}`);
+}
 
 
 
