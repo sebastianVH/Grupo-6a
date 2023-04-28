@@ -7,6 +7,7 @@ console.log(lista_compras);
 //? acceder a los elementos de un Array a traves de indices. Lios Arrays arrancan a partir del indice 0
 console.log(lista_compras[3]); //* El indice se puede acceder mediante colocar un corchete y dentro el numero de indice
 
+
 //?Metodos de Arrays
 
 //* push() agrega uno o mas elementos al final de nuestro Array. Ej: agreguemos "Banana" a la lista
