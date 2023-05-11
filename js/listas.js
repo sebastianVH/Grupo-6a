@@ -39,7 +39,7 @@ console.log(indice);
 
 //! si el elemento no se encuentra en el Array, nos devolvera -1 
 
-//*slice() devolver una COPIA de nuestro Array, segun los parametros que le pasemos
+//*slice() devolver una COPIA de nuestro Array, según los parámetros que le pasemos
 let nueva_lista = lista_compras.slice(2,5)
 console.log(nueva_lista);
 

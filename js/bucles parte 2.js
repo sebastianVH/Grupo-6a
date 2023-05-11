@@ -1,5 +1,6 @@
 //? bucles FOR  en arrays y objetos
 
+
 //*For-each: recorre CADA elemento de un array,  y aplica alguna FUNCION sobre este
 
 let array_frutas = ["Banana","Manzana","Pera","Uva"]

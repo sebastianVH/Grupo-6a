@@ -111,25 +111,16 @@ for(let i = 0;i < lista_animales.length;i++) {
 
 
 
+contador = 0
 
-
-
-
-
-
-
-//? For in
-const objeto = {a: 1, b: 2, c: 3};
-
-for (let propiedad in objeto) {
-  console.log(`${propiedad}: ${objeto[propiedad]}`);
+while (contador <10) {
+   /* if(contador == 9){
+        console.log("9");
+        continue //! NOS VUELVE AL PRINCIPIO DEL BUCLE. 
+    }*/
+    contador++
+    console.log(contador);
+    if (contador == 10){
+        break //!FINALIZA UN BUCLE SIN IMPORTAR LA CONDICION
+    }
 }
-
-//?For Of
-const letras = ["a", "b", "c"];
-
-for (let letra of letras) {
-  console.log(letra);
-}
-
-//?For Each
