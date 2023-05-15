@@ -28,11 +28,8 @@ while(true)
         }
 
         if (option === "3"){
-            //let tarea = prompt("Elija la tarea que desea eliminar: ")
-            let tarea = "3"
-            for (let i= 0; i < actividades.length; i++){
-                alert(`${i+1}- ${actividades[i]}`);
-            }
+
+            let tarea = prompt("Elija la tarea que desea eliminar: "+ actividades.join("\n"))
             let borrada = actividades.splice(tarea-1,1)
             alert(`La tarea "${borrada}" fue eliminada de la lista`);
         }
