@@ -31,8 +31,8 @@ console.log(lista_cervezas);
 
 
 let lunas_saturno = 53 //esta variable es la de la respuesta correcta
-//let numero_arriesgado; // es mi variable para COMPARAR.
-/*
+let numero_arriesgado; // es mi variable para COMPARAR.
+
 while (numero_arriesgado != lunas_saturno) { //!EVALUO 2 VARIABLES DIFERENTES PARA MI CONDICION.
     numero_arriesgado = prompt(" Adivine la cantidad de lunas: ")
     if (numero_arriesgado > lunas_saturno) {
@@ -42,7 +42,7 @@ while (numero_arriesgado != lunas_saturno) { //!EVALUO 2 VARIABLES DIFERENTES PA
     }
 }
 alert("Felicitaciones acertaste!!!")
-*/
+
 
 //? BUCLE FOR: se utiliza para ITERAR SOBRE ELEMENTOS LOS CUALES SEAN ITERABLES.
 
