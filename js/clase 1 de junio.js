@@ -59,8 +59,8 @@ var bar = 1; //Declaro una var llamada bar y le asigno el valor 1
 baz = 2; // asigno a baz el valor 2
 
 //TODO: ver que devuelve cada una de estas expresiones
-6 / "3" =>2
-"2" * "3"
+6 / "3" // => 2
+"2" * "3" // => 
 4 + 5 + "px"
 "$" + 4 + 5
 "4" - 2
