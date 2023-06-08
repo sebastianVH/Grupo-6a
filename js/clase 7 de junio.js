@@ -41,6 +41,7 @@ False = Hace referencia a expresiones falsas
 Otros datos que se toman como False son los siguientes:
 0 => El 0 NUMERICO es considerado un False, PERO NO el 0 tipo string
 "" => El string vacio es considerado False
+undefined => Variable que no tiene ningun contenido (sin definicion)
 variable vacia (sin contenido) => es considerada False
 
 
