@@ -50,7 +50,7 @@ console.log(x); //! 1 || 5
 // HOISTING => eleva a la cima del archivo, las variables declaradas con VAR (sin su contenido) y las FUNCIONES declaradas
 
 console.log(bar); //Hace un console log de "bar" //! 1 - error - undefined (no definido) => undefined || 1
-console.log(baz); // Hace un console log de "baz" //! 2 - error - undefined (no definido) => 2 
+//console.log(baz); // Hace un console log de "baz" //! 2 - error - undefined (no definido) => 2 
 foo(); // Invoca a una funcion llamada foo //! imprime o no hola? => sale 
 function foo() { //Creo una funcion llamada foo
     console.log('Hola!');
@@ -58,20 +58,5 @@ function foo() { //Creo una funcion llamada foo
 var bar = 1; //Declaro una var llamada bar y le asigno el valor 1
 baz = 2; // asigno a baz el valor 2
 
-//TODO: ver que devuelve cada una de estas expresiones
-6 / "3" // => 2
-"2" * "3" // => 
-4 + 5 + "px"
-"$" + 4 + 5
-"4" - 2
-"4px" - 2
-7 / 0
-{}[0]
-parseInt("09")
-5 && 2
-2 && 5
-5 || 0
-0 || 5
-[3]+[3]-[10]
-3>2>1
-[] == ![]
+
+
