@@ -50,6 +50,8 @@ function crearLista(lista) {
     return lista
 }
 
-lista = crearLista(lista)
+crearLista(lista)
 
 lista
+
+//CLOSURES Y CALLBACKS  
