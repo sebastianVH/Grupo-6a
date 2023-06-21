@@ -107,14 +107,13 @@ function despedida(){
 }
 
 function ejecucionCb(cb){
-    console.log("Se ejecuto la funcion: ");
     let frase = cb()
     return frase
 }
 
 //*ARROW FUNCTION 
-let execute = () => ejecucionCb(despedida)
-execute("algo")
+let execute = () => ejecucionCb(bienvenida)
+execute()
 
 /*
 let ejecutar = function () {
