@@ -111,7 +111,7 @@ let execute = () => ejecucionCb(bienvenida)
 execute()
 */
 
-//OPERADOR TERNARIO: es un operador de IF-ELSE de una sola linea, que evalua 2 expresiones
+//?OPERADOR TERNARIO: es un operador de IF-ELSE de una sola linea, que evalua 2 expresiones
 
 // si el interruptor esta en "on", nos devuelve la frase "la lamparita esta prendida", sino "la lamparita esta apagada"
 // en una variable llamada ESTADO, guardar la frase que corresponda
