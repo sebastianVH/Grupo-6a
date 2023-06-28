@@ -26,7 +26,16 @@ let divName = document.getElementsByName('divDoc')
 homework:
 van a capturar un elemento de tag a, cuya clase sera "aClass", su id sera "miLink", y su name sera "aName"
 
-capturar este elemento de las 4 maneras posibles
+? =>  <a id="miLink" class="aClass" name="aName" >
 
+capturar este elemento de las 4 maneras posibles: 
+
+let divTag = document.getElementsByTagName('a')
+
+let divId = document.getElementById('miLink')
+
+let divClase = document.getElementsByClassName('aClass')
+
+let divName = document.getElementsByName('aName')
 
 */
