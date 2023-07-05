@@ -1,6 +1,5 @@
 // Atributos que podemos utilizar en nuestros elementos del DOM
 
-
 let elemento_input = document.querySelector('input.entrada')
 
 //Podemos agregarle ATRIBUTOS desde Js

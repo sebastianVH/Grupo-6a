@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script src="./js/dom.js"></script> -->
     <!-- <script type="module" src="./js/clase 28 de junio - DOM 2.js"></script> -->
-    <script type="module" src="./js/clase 29 de junio.js"></script>
+    <!-- <script type="module" src="./js/clase 29 de junio.js"></script> -->
+    <script src="./js/clase 5 de julio.js"></script>
     <title>DoM</title>
 </head>
 <body style="background-color: rgb(230, 230, 230); text-align:center">
@@ -15,9 +16,6 @@
     </header>
     <main>
         <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-        <div class="container" id="miDiv" name="divDoc" >
-            Soy un div
-        </div>
         <section name="seccionPrincipal">
             <h3>Que es el dom</h3>
             <article class="articulos">
@@ -34,6 +32,17 @@
         <p class="text-container">Texto 4</p>
     </div>
     <input class="entrada">
+
+    <hr>
+    <h2 style="margin: 0 auto;">Div con elementos creados</h2>
+    <div style="background-color:aqua;border: 1px solid black; width: 200px;height: 200px; margin: 0 auto;" id="miDiv" name="divDoc" >
+    </div>
+
+    <hr>
+    <h2>Elemento creado desde el HTML</h2>
+    <label for="texto">Indique el texto que va a contener el DIV: </label>
+    <input id="textoParaParrafo" type="text">
+    <button onclick="agregarParrafo()">Agregar</button>
     <footer>
         <p class="parrafos" name="" id="parrafoFooter" >Global Academy - Profe Sebastian</p>
     </footer>
