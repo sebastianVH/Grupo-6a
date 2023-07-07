@@ -41,6 +41,11 @@ let elementoCreado = '<p id="miTexto" class="textoClase">Yo tambien estoy creado
 
 //? CREAREMOS TEXTOS DESDE JS Y HTML
 
+let boton = document.querySelector('button#btnAgregar')
+boton.addEventListener('click',(e) => {
+    console.log(e.target.innerText = "Agregado");
+})
+
 function agregarParrafo(){
     //tomar el contenido de nuestro INPUT:
     let miInput = document.querySelector('input#textoParaParrafo') //seleccionamos el tag del tipo input
@@ -50,3 +55,10 @@ function agregarParrafo(){
     contenedorElegido.innerHTML += elementoCreado //INSERTARLO COMO HTML
     miInput.value = "" //devolvemos el valor del input en vacio
 }
+
+/*Event listener: pone a un elemento en el DOM, a la espera de que se ejecute algun tipo de accion sobre el */
+/*
+*TODO EVENTO TIENE UN BLANCO (TARGET)
+
+*/
+
