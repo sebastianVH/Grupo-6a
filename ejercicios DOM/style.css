@@ -13,4 +13,13 @@
     border: 1px solid black;
     padding: 5px 15px;
     margin: 10px 15px;
+    cursor: pointer;
+}
+
+.completado{
+    text-decoration: line-through;
+    background-color: rgb(161, 159, 159);
+    border: 1px solid black;
+    padding: 5px 15px;
+    margin: 10px 15px;
 }
