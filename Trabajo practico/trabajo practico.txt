@@ -1,0 +1,48 @@
+TRABAJO PRACTICO JS:
+
+Ir unificando los conocimientos adquiridos en HTML/CSS junto con la parte principal de JS: 
+-Funciones
+-Metodos
+-Pedidos a Api
+-Template string
+-Asincronismo (async / await -- Promises)
+
+*** API Rick y Morty ***
+
+pagina: https://rickandmortyapi.com
+
+*** Sobre el trabajo practico ***
+
+-El trabajo consta en realizar pedidos a la API de rickymorty utilizando SUS ID como parametro de pedido
+
+-Tendremos una pagina principal, la cual constara de un titulo y una pequeña barra de busqueda. Esta barra de busqueda debe contener una etiqueta al lado que diga "buscar personaje por id". El titulo es a eleccion (Rick and Morty characters - Serie Rick and morty - Personajes rick and morty)
+
+-En nuestra pagina, enviaremos a traves de ese campo de busqueda, un numero que corresponde a un ID de un personaje. Ese personaje lo buscaremos en la API, y nos traeremos toda su informacion. Con esta info, crearemos una tarjetita del personaje: la info a utilizar sera: "name" - "species" - "status" - "image"
+
+-Cada personaje que traigamos, lo vamos a almacenar en nuestro almacenamiento local. Dentro de mi almacenamiento local, va a ser el lugar que voy a consultar para renderizar los personajes que tenga guardado. 
+
+*** puntos a tener en cuenta ***
+
+-Semantica y manejo de errores: 
+*Semantica: mantener el orden y la escritura de mis funciones de manera prolija y facil de comprender. Creamos buenas practicas a la hora de codear
+
+-Manejo de errores: recordemos que hay sentencias que llevan un try-catch. Tambien anticipemos posibles errores de nuestro codigo.
+
+-Presentacion: Si bien el CSS y HTML  no es obligatorio tenerlo desarrollado en este tp, entre mejor sea el desarrollo front, mejor quedara el resultado final (que pongan un fondo, letras legibles)
+
+-Orden dentro del codigo: organizen las funciones y bloques de codigo, para que sea lo mas legible posible
+
+***Puntos a desarrollar de manera opcional***
+DESAFIOS:
+
+-Evitar que el usuario ingrese un numero de ID superior al dado por la API. Esto debe ser manejado a traves de JS (no usarlos desde el HTML). Si el numero ingresado por el usuario es mayor al de la cant de personajes, le mostramos un alert que diga "Seleccione un numero menor o igual a 826"
+
+-Evitar que se ponga un personaje repetido: si por ejemplo, ingresamos el 10, no va a poder volver a pedir el mismo. Si el usuario vuelve a poner ese mismo numero, le va a indicar que ya se agrego ese personaje (tip: pueden usar las funciones filter o some)
+
+-Tener un boton que permite borrar todos los personajes: vacia el almacenamiento local, y elimina todos los datos que esten mostrando en ese momento
+
+-Eliminar un personaje: elimina uno de los personajes que tengo en mis tarjetas (tip: usen el ID, y usen el filter)
+
+-Crear un formulario que guarde en el almacenamiento local, un personaje creado: solo guardara el nombre, y el status. las imagenes no es necesario cargarlas,al igual que un id (en esas propiedades pueden poner un string vacio, y en ID un numero aleatorio o fijo)
+
+

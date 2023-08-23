@@ -46,7 +46,6 @@ function agregarAlCarrito(id){
     let producto = lista_articulos.find( producto => producto.id === Number(id))
     carritoCompras.push(producto)
     localStorage.setItem('carritoCompras', JSON.stringify(carritoCompras))
-    console.log("items:",carritoCompras)
     //
 }
 
