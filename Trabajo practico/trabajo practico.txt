@@ -28,7 +28,7 @@ pagina: https://rickandmortyapi.com
 
 -Manejo de errores: recordemos que hay sentencias que llevan un try-catch. Tambien anticipemos posibles errores de nuestro codigo.
 
--Presentacion: Si bien el CSS y HTML  no es obligatorio tenerlo desarrollado en este tp, entre mejor sea el desarrollo front, mejor quedara el resultado final (que pongan un fondo, letras legibles)
+-Presentacion: Si bien el CSS y HTML  no es obligatorio tenerlo desarrollado en este tp, entre mejor sea el desarrollo front, mejor quedara el resultado final (que pongan un fondo, letras legibles) //background-image, background-size (cover), background-repeat (no-repeat)
 
 -Orden dentro del codigo: organizen las funciones y bloques de codigo, para que sea lo mas legible posible
 
