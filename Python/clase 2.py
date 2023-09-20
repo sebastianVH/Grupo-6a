@@ -68,3 +68,8 @@ agenda.clear() #borrar todo el diccionario
 
 
 #HOMEWORK: buscar otros metodos que existen en diccionarios y listas
+
+#FROMKEYS:
+
+lista = ["nombre","domicilio","cp","telefono"]
+nombres = dict.fromkeys(lista,"vacio")
