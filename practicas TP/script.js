@@ -11,7 +11,7 @@ const buscarPokemon = async (id) => {
     const dataPokemon = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
     const pokemonBuscado = await dataPokemon.json()
     listaPokemons.push(pokemonBuscado)
-    localStorage.setItem("pokemons",JSON.stringify(listaPokemons))
+    localStorage.setItem("pokemons",JSON.stringify(listaPokemons)) //*almaceno en el localStorage mi lista de pokemons
     return pokemonBuscado
 }
 
@@ -26,6 +26,7 @@ const armarFila = (pokemon)=>{
             </tr>`
 }
 
+//*Agrega el nuevo pókemon buscado a la tabla de mi HTML
 const agregarDatosTabla = async () => {
     const input = document.querySelector("input#input-pokemon")
     const tabla = document.querySelector("tbody#cuerpo-tabla")
@@ -34,6 +35,7 @@ const agregarDatosTabla = async () => {
     tabla.innerHTML += filaLista
 }
 
+//* Carga la pagina con los datos del localStorage
 const cargarPagina = () => {
     const tabla = document.querySelector("tbody#cuerpo-tabla")
     tabla.innerHTML = ""
