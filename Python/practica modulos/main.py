@@ -49,7 +49,7 @@ def ProgPrincipal():
             usuario["saldo"] = retiro
             print(f"Se han retirado {monto_retirar} de su cuenta. Su saldo actual es de {retiro}")
         elif opcion == 3:
-            nuevo_saldo = depositarSaldo()
+            nuevo_saldo = depositarSaldo() 
             print(f"Su nuevo saldo es de {nuevo_saldo}")
         elif opcion == 4:
             print("Gracias por usar nuestro sistema! Hasta pronto")
